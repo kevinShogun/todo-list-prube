@@ -1,0 +1,18 @@
+.button-text{
+    @apply font-semibold text-lg md:text-xl lg:text-2xl;
+}
+
+.color-circle{
+    @apply w-5 h-5 shadow-md rounded-full cursor-pointer mx-1 md:w-7 md:h-7 tooltip;
+}
+
+.input-text{
+    @apply input input-bordered w-full mt-2;
+}
+
+form{
+    @apply flex flex-col gap-3 select-none;
+}
+.textarea-form{
+    @apply textarea textarea-bordered w-full  mt-2 resize-none min-h-32;    
+}

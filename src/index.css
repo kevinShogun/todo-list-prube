@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar{
+ @apply w-full lg:w-1/5 select-none pl-3 lg:h-[95vh] text-black overflow-y-auto  font-title;
+}
+
+.list-item{
+    @apply flex items-center justify-between gap-2 mt-3;
+}
+
+.list-item-text{
+    @apply font-title text-sm font-medium truncate;
+}
+
+.category-color{
+    @apply w-5 h-5 rounded-full mt-2;
+}
+
+.dropdown-item{
+    @apply dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52;
+}
