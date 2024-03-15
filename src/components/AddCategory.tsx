@@ -73,7 +73,7 @@ export const AddCategory = () => {
             </button>
             <Modal>
                 <h2 className="button-text">
-                    Agregar una categoria
+                    Nueva categoria
                 </h2>
                 <div className="divider" />
                 <form method="dialog" className="modal-form" onSubmit={handleCategory}>
