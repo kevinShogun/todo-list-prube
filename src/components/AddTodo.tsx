@@ -98,36 +98,34 @@ export const AddTodo = () => {
                 id="add_todo"
             >
                 <h2 className="button-text">
-                    Agregar una tarea
+                    Nueva tarea
                 </h2>
                 <div className="divider" />
                 <form method="dialog" className="modal-form" onSubmit={handleAddTodo}>
                     <div className="form-control">
-                        <label htmlFor="category">Título: </label>
-                        <input type="text" id="category" className='input-text'
+                        <label htmlFor="title">Título: </label>
+                        <input type="text" id="title" className='input-text'
                             value={todo.title}
                             onChange={(e) => settodo({ ...todo, title: e.target.value })}
                         />
                     </div>
 
                     <div className="form-control">
-                        <label htmlFor="category">Descripción: </label>
+                        <label htmlFor="description">Descripción: </label>
                         <textarea
-                            id="category"
+                            id="description"
                             value={todo.body}
                             className='textarea-form'
                             onChange={(e) => settodo({ ...todo, body: e.target.value })}
                         ></textarea>
                     </div>
                     <div className="form-control">
-                        <label htmlFor="color">Categorias: </label>
+                        <label htmlFor="color">Categorías: </label>
                         <div className='flex gap-3 mt-2'>
-                            {categories.map((c, index) => (
+                            {categories?.map((c, index) => (
                                 <div
                                     key={index}
-                                    className={`color-circle
-                                        ${todo.categories.includes(c) && 'border-2 border-black'}
-                                    `}
+                                    className={`color-circle ${todo.categories.includes(c) ? 'border-2 border-black' : ''}`}
                                     data-tip={c.name}
                                     style={{ backgroundColor: c.color }}
                                     onClick={() =>  setCategories(c) }

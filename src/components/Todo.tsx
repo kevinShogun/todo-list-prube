@@ -1,4 +1,4 @@
-import { FC, useContext } from 'react';
+import { useContext } from 'react';
 import { Todo as ITodo } from "../interfaces"
 import { TodoContext } from '../context';
 import '../styles/todoStyle.css';
@@ -14,7 +14,8 @@ interface TodoProps {
  * @param {ITodo} props.todo - The todo item to be rendered.
  * @returns {JSX.Element} The rendered todo item.
  */
-export const Todo: FC<TodoProps> = ({ todo }) => {
+
+export const Todo = ({ todo }:TodoProps) => {
     
     const { removeTodo, setCurrentTodo, toggleTodo} = useContext(TodoContext);
 
@@ -44,6 +45,7 @@ export const Todo: FC<TodoProps> = ({ todo }) => {
                             key={index}
                             className={`color-circle ${todo.categories.includes(c) && 'border-2 border-black'}`}
                             data-tip={c.name}
+                            id={c.id}
                             style={{ backgroundColor: c.color }}
                         />
                     ))}

@@ -1,0 +1,599 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddTodo Tests Suites > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="todo-container"
+      >
+        <div
+          class="todo-dropdown"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <i
+              class="bx bx-dots-horizontal-rounded"
+            />
+          </div>
+          <ul
+            class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            tabindex="0"
+          >
+            <li>
+              <a
+                class="false"
+              >
+                Editar 
+              </a>
+            </li>
+            <li>
+              <a>
+                Eliminar
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h3
+          class="todo-title false"
+        >
+           
+          Test Todo
+           
+        </h3>
+        <p
+          class="todo-text"
+        >
+          Test Body
+        </p>
+        <div
+          class="container-flex"
+        >
+          <div
+            class="flex gap-3 mt-2"
+          >
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 1"
+              id="12"
+              style="background-color: red;"
+            />
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 2"
+              id="sada2"
+              style="background-color: blue;"
+            />
+          </div>
+          <label
+            class="flex items-center space-x-2 mt-3"
+          >
+            <input
+              class="checkbox rounded-md text-primary-500"
+              type="checkbox"
+            />
+            <span
+              class="todo-bottom-text"
+            >
+              Completado
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="todo-container"
+      >
+        <div
+          class="todo-dropdown"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <i
+              class="bx bx-dots-horizontal-rounded"
+            />
+          </div>
+          <ul
+            class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            tabindex="0"
+          >
+            <li>
+              <a
+                class="false"
+              >
+                Editar 
+              </a>
+            </li>
+            <li>
+              <a>
+                Eliminar
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h3
+          class="todo-title false"
+        >
+           
+          Test Todo
+           
+        </h3>
+        <p
+          class="todo-text"
+        >
+          Test Body
+        </p>
+        <div
+          class="container-flex"
+        >
+          <div
+            class="flex gap-3 mt-2"
+          >
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 1"
+              id="12"
+              style="background-color: red;"
+            />
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 2"
+              id="sada2"
+              style="background-color: blue;"
+            />
+          </div>
+          <label
+            class="flex items-center space-x-2 mt-3"
+          >
+            <input
+              class="checkbox rounded-md text-primary-500"
+              type="checkbox"
+            />
+            <span
+              class="todo-bottom-text"
+            >
+              Completado
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="todo-container"
+    >
+      <div
+        class="todo-dropdown"
+      >
+        <div
+          role="button"
+          tabindex="0"
+        >
+          <i
+            class="bx bx-dots-horizontal-rounded"
+          />
+        </div>
+        <ul
+          class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+          tabindex="0"
+        >
+          <li>
+            <a
+              class="false"
+            >
+              Editar 
+            </a>
+          </li>
+          <li>
+            <a>
+              Eliminar
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h3
+        class="todo-title false"
+      >
+         
+        Test Todo
+         
+      </h3>
+      <p
+        class="todo-text"
+      >
+        Test Body
+      </p>
+      <div
+        class="container-flex"
+      >
+        <div
+          class="flex gap-3 mt-2"
+        >
+          <div
+            class="color-circle border-2 border-black"
+            data-tip="Category 1"
+            id="12"
+            style="background-color: red;"
+          />
+          <div
+            class="color-circle border-2 border-black"
+            data-tip="Category 2"
+            id="sada2"
+            style="background-color: blue;"
+          />
+        </div>
+        <label
+          class="flex items-center space-x-2 mt-3"
+        >
+          <input
+            class="checkbox rounded-md text-primary-500"
+            type="checkbox"
+          />
+          <span
+            class="todo-bottom-text"
+          >
+            Completado
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Todo Tests Suites > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="todo-container"
+      >
+        <div
+          class="todo-dropdown"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <i
+              class="bx bx-dots-horizontal-rounded"
+            />
+          </div>
+          <ul
+            class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            tabindex="0"
+          >
+            <li>
+              <a
+                class="false"
+              >
+                Editar 
+              </a>
+            </li>
+            <li>
+              <a>
+                Eliminar
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h3
+          class="todo-title false"
+        >
+           
+          Test Todo
+           
+        </h3>
+        <p
+          class="todo-text"
+        >
+          Test Body
+        </p>
+        <div
+          class="container-flex"
+        >
+          <div
+            class="flex gap-3 mt-2"
+          >
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 1"
+              id="12"
+              style="background-color: red;"
+            />
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 2"
+              id="sada2"
+              style="background-color: blue;"
+            />
+          </div>
+          <label
+            class="flex items-center space-x-2 mt-3"
+          >
+            <input
+              class="checkbox rounded-md text-primary-500"
+              type="checkbox"
+            />
+            <span
+              class="todo-bottom-text"
+            >
+              Completado
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="todo-container"
+      >
+        <div
+          class="todo-dropdown"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <i
+              class="bx bx-dots-horizontal-rounded"
+            />
+          </div>
+          <ul
+            class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            tabindex="0"
+          >
+            <li>
+              <a
+                class="false"
+              >
+                Editar 
+              </a>
+            </li>
+            <li>
+              <a>
+                Eliminar
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h3
+          class="todo-title false"
+        >
+           
+          Test Todo
+           
+        </h3>
+        <p
+          class="todo-text"
+        >
+          Test Body
+        </p>
+        <div
+          class="container-flex"
+        >
+          <div
+            class="flex gap-3 mt-2"
+          >
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 1"
+              id="12"
+              style="background-color: red;"
+            />
+            <div
+              class="color-circle border-2 border-black"
+              data-tip="Category 2"
+              id="sada2"
+              style="background-color: blue;"
+            />
+          </div>
+          <label
+            class="flex items-center space-x-2 mt-3"
+          >
+            <input
+              class="checkbox rounded-md text-primary-500"
+              type="checkbox"
+            />
+            <span
+              class="todo-bottom-text"
+            >
+              Completado
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="todo-container"
+    >
+      <div
+        class="todo-dropdown"
+      >
+        <div
+          role="button"
+          tabindex="0"
+        >
+          <i
+            class="bx bx-dots-horizontal-rounded"
+          />
+        </div>
+        <ul
+          class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+          tabindex="0"
+        >
+          <li>
+            <a
+              class="false"
+            >
+              Editar 
+            </a>
+          </li>
+          <li>
+            <a>
+              Eliminar
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h3
+        class="todo-title false"
+      >
+         
+        Test Todo
+         
+      </h3>
+      <p
+        class="todo-text"
+      >
+        Test Body
+      </p>
+      <div
+        class="container-flex"
+      >
+        <div
+          class="flex gap-3 mt-2"
+        >
+          <div
+            class="color-circle border-2 border-black"
+            data-tip="Category 1"
+            id="12"
+            style="background-color: red;"
+          />
+          <div
+            class="color-circle border-2 border-black"
+            data-tip="Category 2"
+            id="sada2"
+            style="background-color: blue;"
+          />
+        </div>
+        <label
+          class="flex items-center space-x-2 mt-3"
+        >
+          <input
+            class="checkbox rounded-md text-primary-500"
+            type="checkbox"
+          />
+          <span
+            class="todo-bottom-text"
+          >
+            Completado
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

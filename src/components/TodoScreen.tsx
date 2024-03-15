@@ -1,8 +1,8 @@
 import { useContext } from 'react';
+import { MagicMotion } from 'react-magic-motion';
 import { TodoContext } from "../context";
 import { AddTodo } from "./AddTodo"
 import { Todo } from './Todo';
-import { MagicMotion } from 'react-magic-motion';
 
 export const TodoScreen = () => {
 
@@ -19,11 +19,16 @@ export const TodoScreen = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 w-full">
 
           {
-            todos.map((todo) => (
-              <Todo
+            todos?.map((todo) => (
+              <div
                 key={todo.id}
-                todo={todo}
-              />
+                data-testid={todo.title}
+              >
+                <Todo
+                  todo={todo}
+                />
+
+              </div>
             ))
           }
         </div>
