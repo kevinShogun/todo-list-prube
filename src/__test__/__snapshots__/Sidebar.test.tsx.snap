@@ -1,0 +1,296 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoScreen Tests Suites > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <aside
+        class="sidebar"
+      >
+        <h2
+          class="font-semibold text-2xl md:text-3xl lg:text-5xl"
+        >
+          todo
+        </h2>
+        <div>
+          <ul
+            class="mt-5"
+          />
+        </div>
+        <div
+          class="divider"
+        />
+        <div>
+          <button
+            class="btn btn-ghost"
+          >
+            Agregar una categoria
+            <i
+              class="bx bx-plus"
+            />
+          </button>
+          <dialog
+            class="modal"
+            id="my_modal_2"
+          >
+            <div
+              class="modal-box"
+            >
+              <h2
+                class="button-text"
+              >
+                Nueva categoria
+              </h2>
+              <div
+                class="divider"
+              />
+              <form
+                class="modal-form"
+                method="dialog"
+              >
+                <div
+                  class="form-control"
+                >
+                  <label
+                    for="category"
+                  >
+                    Categoria: 
+                  </label>
+                  <input
+                    class="input-text"
+                    id="category"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="form-control"
+                >
+                  <label
+                    for="color"
+                  >
+                    Color: 
+                  </label>
+                  <div
+                    class="flex gap-3"
+                  >
+                    <div
+                      class="color-circle false"
+                      style="background-color: #d2ceff;"
+                    />
+                    <div
+                      class="color-circle false"
+                      style="background-color: #ffdbdb;"
+                    />
+                    <div
+                      class="color-circle false"
+                      style="background-color: #d1e5f7;"
+                    />
+                    <div
+                      class="color-circle false"
+                      style="background-color: #ffcece;"
+                    />
+                    <div
+                      class="color-circle false"
+                      style="background-color: #daf2d6;"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                >
+                  Agregar
+                </button>
+              </form>
+            </div>
+            <form
+              class="modal-backdrop"
+              method="dialog"
+            >
+              <button>
+                close
+              </button>
+            </form>
+          </dialog>
+        </div>
+        <img
+          alt="note list"
+          class="w-3/4 mx-auto mt-5 hidden lg:block"
+          src="./undraw_to_do_re_jaef.svg"
+        />
+      </aside>
+    </div>
+  </body>,
+  "container": <div>
+    <aside
+      class="sidebar"
+    >
+      <h2
+        class="font-semibold text-2xl md:text-3xl lg:text-5xl"
+      >
+        todo
+      </h2>
+      <div>
+        <ul
+          class="mt-5"
+        />
+      </div>
+      <div
+        class="divider"
+      />
+      <div>
+        <button
+          class="btn btn-ghost"
+        >
+          Agregar una categoria
+          <i
+            class="bx bx-plus"
+          />
+        </button>
+        <dialog
+          class="modal"
+          id="my_modal_2"
+        >
+          <div
+            class="modal-box"
+          >
+            <h2
+              class="button-text"
+            >
+              Nueva categoria
+            </h2>
+            <div
+              class="divider"
+            />
+            <form
+              class="modal-form"
+              method="dialog"
+            >
+              <div
+                class="form-control"
+              >
+                <label
+                  for="category"
+                >
+                  Categoria: 
+                </label>
+                <input
+                  class="input-text"
+                  id="category"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-control"
+              >
+                <label
+                  for="color"
+                >
+                  Color: 
+                </label>
+                <div
+                  class="flex gap-3"
+                >
+                  <div
+                    class="color-circle false"
+                    style="background-color: #d2ceff;"
+                  />
+                  <div
+                    class="color-circle false"
+                    style="background-color: #ffdbdb;"
+                  />
+                  <div
+                    class="color-circle false"
+                    style="background-color: #d1e5f7;"
+                  />
+                  <div
+                    class="color-circle false"
+                    style="background-color: #ffcece;"
+                  />
+                  <div
+                    class="color-circle false"
+                    style="background-color: #daf2d6;"
+                  />
+                </div>
+              </div>
+              <button
+                class="btn btn-primary"
+                type="submit"
+              >
+                Agregar
+              </button>
+            </form>
+          </div>
+          <form
+            class="modal-backdrop"
+            method="dialog"
+          >
+            <button>
+              close
+            </button>
+          </form>
+        </dialog>
+      </div>
+      <img
+        alt="note list"
+        class="w-3/4 mx-auto mt-5 hidden lg:block"
+        src="./undraw_to_do_re_jaef.svg"
+      />
+    </aside>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

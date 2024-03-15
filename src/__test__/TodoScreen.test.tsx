@@ -77,7 +77,7 @@ describe("TodoScreen Tests Suites", () => {
         // Act
         const checkbox = screen.getAllByRole('checkbox');
         fireEvent.click(checkbox[0]);
-
+        
         // Assert not called
         expect(toggleTodoMock).not.toHaveBeenCalledTimes(1);
     });

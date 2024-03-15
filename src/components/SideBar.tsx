@@ -16,8 +16,10 @@ export const SideBar = () => {
       <MagicMotion>
         <div>
           <ul className="mt-5">
-            {categories.map((category) => (
-              <li key={category.id} className="list-item">
+            {categories?.map((category) => (
+              <li key={category.id} className="list-item"
+                data-testid={category.name}
+              >
                 <div className='flex w-3/4 items-center gap-2'>
                   <span className="category-color" style={{ backgroundColor: category.color }} />
                   <span className='list-item'>{category.name}</span>
