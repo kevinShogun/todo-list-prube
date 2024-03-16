@@ -2,6 +2,10 @@
 
 Welcome to our Todo List application! This project is built with React, Vite, TypeScript, Tailwind CSS, and DaisyUI for UI components. It follows design patterns to ensure proper functionality and adheres to SOLID principles. The application also includes comprehensive testing suites using Vitest and React Testing Library to maintain quality and reliability.
 
+![image](https://github.com/kevinShogun/todo-list-prube/assets/54457637/d403e5e6-aba3-4bdb-92b4-41e73d3cd82d)
+
+## [Website Todo List](https://kevin-test-todo-list.netlify.app/)
+
 ### Key Technologies
 
 - **React:** Providing a dynamic and efficient user interface.
@@ -62,7 +66,7 @@ Explore the Todo List application, manage your tasks efficiently, and experience
 
 ### Contact
 
-For inquiries or collaboration opportunities, feel free to reach out via email at [your-email@example.com](mailto:your-email@example.com).
+For inquiries or collaboration opportunities, feel free to reach out via email at [gkevinyamil.com](mailto:gkevinyamil@gmail.com).
 
 ---
 
