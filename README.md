@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+## Todo List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our Todo List application! This project is built with React, Vite, TypeScript, Tailwind CSS, and DaisyUI for UI components. It follows design patterns to ensure proper functionality and adheres to SOLID principles. The application also includes comprehensive testing suites using Vitest and React Testing Library to maintain quality and reliability.
 
-Currently, two official plugins are available:
+### Key Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React:** Providing a dynamic and efficient user interface.
+- **Vite:** Enabling fast development and optimized builds.
+- **TypeScript:** Enhancing code readability and maintainability with static typing.
+- **Tailwind CSS:** Styling framework for rapid UI development.
+- **DaisyUI:** Framework for UI components, enhancing design consistency and efficiency.
+- **Vitest:** Testing framework for ensuring application reliability.
+- **React Testing Library:** Tool for testing React components to ensure proper functionality.
 
-## Expanding the ESLint configuration
+### Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To set up and run the application:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```bash
+   git clone https://github.com/kevinShogun/todo-list-prube.git
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+
+   ```bash
+   cd todo-list-prube
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the application in development mode:
+
+   ```bash
+   npm run dev
+   ```
+
+5. To run tests:
+
+   ```bash
+   npm run test
+   ```
+
+6. To build the application:
+
+   ```bash
+   npm run build
+   ```
+
+### Note
+
+Replace `npm` with `yarn` in the commands if you are using Yarn as your package manager.
+
+### Usage
+
+Explore the Todo List application, manage your tasks efficiently, and experience the seamless integration of modern technologies.
+
+### Contact
+
+For inquiries or collaboration opportunities, feel free to reach out via email at [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Experience the power of productivity with our Todo List application, designed to streamline your task management process. Thank you for choosing our application! 📝✅🚀

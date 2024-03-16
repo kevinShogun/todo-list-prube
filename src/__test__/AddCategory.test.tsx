@@ -80,9 +80,13 @@ describe("AddCategory", () => {
 					replaceCategory: () => {},
 					addTodo: () => {},
 					replaceTodo: () => {},
-					removeCategory(id) {},
+					removeCategory(id) {
+						this.categories = this.categories.filter((c) => c.id !== id);
+					},
 					removeTodo: () => {},
-					setCurrentCategory(category) {},
+					setCurrentCategory(category) {
+						this.currentCategory = category;
+					},
 					toggleTodo: () => {},
 					// Add the remaining properties here
 				}}				

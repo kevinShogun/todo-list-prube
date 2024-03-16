@@ -49,9 +49,11 @@ describe("AddTodo Tests Suites", () => {
                 currentCategory: null,
                 addCategory: () => { },
                 replaceCategory: () => { },
-                removeCategory(id) { },
+                removeCategory: () => { },
                 removeTodo: () => { },
-                setCurrentCategory(category) { },
+                setCurrentCategory(category) {
+                    this.currentCategory = category;
+                },
                 toggleTodo: () => { },
                 // Add the remaining properties here
             }}>
@@ -102,9 +104,11 @@ describe("AddTodo Tests Suites", () => {
                 currentCategory: null,
                 addCategory: () => { },
                 replaceCategory: () => { },
-                removeCategory(id) { },
+                removeCategory: removeCategoryMock,
                 removeTodo: () => { },
-                setCurrentCategory(category) { },
+                setCurrentCategory(category) {
+                    this.currentCategory = category;
+                },
                 toggleTodo: () => { },
                 categories,
                 addTodo: addTodoMock,

@@ -23,7 +23,7 @@ describe("TodoScreen Tests Suites", () => {
     });
 
 
-    it('should render the component without crashing', () => {
+    test('should render the component without crashing', () => {
         render(
             <TodoContext.Provider value={{
                 todos,
@@ -35,9 +35,13 @@ describe("TodoScreen Tests Suites", () => {
                 replaceCategory: () => { },
                 addTodo: () => { },
                 replaceTodo: () => { },
-                removeCategory(id) { },
+                removeCategory(id) {
+                    this.categories = this.categories.filter((c) => c.id !== id);
+                },
                 removeTodo: () => { },
-                setCurrentCategory(category) { },
+                setCurrentCategory(category) {
+                    this.currentCategory = category;
+                },
                 toggleTodo: () => { },
             }}>
                 <SideBar />
